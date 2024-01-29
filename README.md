@@ -6,8 +6,9 @@
    1. data: this dataset contains 101 consumers and 1 depot; 8 trucks with same type (capacity 200, 1 variable cost and no fixed cost)
    2. pic: picture for `note.md`
    3. pyVRP: a solver library
-   4. `code.ipynb`: code of pyVRP and VRPSolver
-   5. `note.md`: study notes
+   4. `BaPTree.dot`: file created by VRPSolver
+   5. `code.ipynb`: code of pyVRP and VRPSolver
+   6. `note.md`: study notes
 
 ## Update 1/21/2024:
 1. learnt pyVRP and VRPSolver to solve CVRP
