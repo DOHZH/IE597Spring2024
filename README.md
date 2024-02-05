@@ -1,5 +1,11 @@
 # IE597Spring2024
 
+## Update 2/04/2024:
+1. read paper: Bock, A., & Sanità, L. (2015). The capacitated orienteering problem. Discrete Applied Mathematics, 195, 31-42.
+2. Week3 folder
+   1. `PaperNote.md`：reading note
+   2. pic: the figures in the note
+
 ## Update 1/28/2024:
 1. Use bigger dataset to solve and compare pyVRP and VRPSolver
 2. week2 folder
