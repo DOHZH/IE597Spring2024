@@ -1,5 +1,15 @@
 # IE597Spring2024
 
+## Update 2/11/2024:
+1. compare with PyVRP and routingblocks.
+   1. In order to solve n439-k37 CVRP, PyVRP runs 40.38 seconds with 0.9% worse than right sol while routingblocks runs 3 minutes with 6.9% worse
+   2. Although PyVRP are better than routingblocks in time and accuracy, but I think it is responsibility from algorithm. The official CVRP plugin provided by routingblocks use a random alg, which seems worse than alg in pyVRP
+   3. Routingblocks provides a powerful set of tool, allowing us to customize our own CVRP algorithm. However, pyVRP doesn't give us enough interface to develop plugin
+2. week 4 folder
+   1. `data`: data from https://github.com/PyVRP/Instances.git, vrplib format
+   2. `code.ipynb`: code
+   3. `note.md`: learning note of PyVRP and routingblocks. You may meet some problem during installing routingblocks CVRP plugin, please read this note to help you solve problem
+
 ## Update 2/04/2024:
 1. read paper: Bock, A., & Sanità, L. (2015). The capacitated orienteering problem. Discrete Applied Mathematics, 195, 31-42.
 2. Week3 folder
