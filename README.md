@@ -1,5 +1,12 @@
 # IE597Spring2024
 
+## Update 2/19/2024:
+1. prepare the presentation
+2. week 5 folder
+   1. data:Uchoa et al. (2014), http://vrp.atd-lab.inf.puc-rio.br/index.php/en/
+   2. `code.ipynb`: run the performance comparison
+   3. `pre.pdf`: presentation
+
 ## Update 2/11/2024:
 1. compare with PyVRP and routingblocks.
    1. In order to solve n439-k37 CVRP, PyVRP runs 40.38 seconds with 0.9% worse than right sol while routingblocks runs 3 minutes with 6.9% worse
