@@ -31,7 +31,7 @@
 # 3. pyVRP
 1. details in code
 # 4. VRPSolver
-1. create model：`VRPSolverRasy.Model()`
+1. create model：`VRPSolverEasy.Model()`
 2. model's properties:
    1. we could set model properties like this: `model.<property name>`
    2. `max_total_vehicles_number`：the maximum total vehicles number
