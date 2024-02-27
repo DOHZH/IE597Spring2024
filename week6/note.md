@@ -113,8 +113,7 @@
                1.  $\bar{P}$ is the period and $\bar{\tau}$ is the maximum intershipment time. In the period, we have used m vehicles in this period 
                2.  no shipment in a time interval of length $\bar{\tau}$, therefore we have at least $\sum_i q_i\bar{\tau}$ at every beginning of an interval
                3.  the total inventory cost per time unit is at least $\sum_i h_iq_i\bar{\tau} = h\bar{\tau}$
-               4.  To minimize total inventory cost, we should minimize intershipment time. We use m vehicles totally in this period, therefore, the single frequency policy with intershipment time $\tau = \frac{\bar{P}}{\bar{m}}$
-               5.  That is why we say 
+               4.  To minimize total inventory cost, we should minimize intershipment time. We use m vehicles totally in this period, therefore, the single frequency policy with intershipment time $\tau = \frac{\bar{P}}{\bar{m}}$. Because we only have m vehicles but want to minimize intershipment time, It is better for use to let only one vehicle to delivery each subtime. If we send all the car on time 0, we have to suffer inventory cost at whole period 
            2.  
 2. Decisions over time only: the Inventory Routing Problem with Direct Shipping
    1.  a supplier serves a set of customers with direct shipments to each separately. Again, the routes are fixed.
