@@ -1,5 +1,15 @@
 # IE597Spring2024
 
+## Update 2/26/2024:
+1. update presentation pdf
+2. week 6 folder
+   1. pic: picture in note
+   2. `note.md`: not finish 
+      1. Bertazzi, L., & Speranza, M. G. (2012). Inventory routing problems: an introduction. EURO Journal on Transportation and Logistics, 1, 307-326.
+      2. Burns, L. D., Hall, R. W., Blumenfeld, D. E., & Daganzo, C. F. (1985). Distribution Strategies that Minimize Transportation and Inventory Costs. Operations Research, 33(3), 469–490. http://www.jstor.org/stable/170552
+   3. `pre.pdf`: presentation
+
+
 ## Update 2/19/2024:
 1. prepare the presentation
 2. week 5 folder
