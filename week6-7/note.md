@@ -114,7 +114,37 @@
                2.  no shipment in a time interval of length $\bar{\tau}$, therefore we have at least $\sum_i q_i\bar{\tau}$ at every beginning of an interval
                3.  the total inventory cost per time unit is at least $\sum_i h_iq_i\bar{\tau} = h\bar{\tau}$
                4.  To minimize total inventory cost, we should minimize intershipment time. We use m vehicles totally in this period, therefore, the single frequency policy with intershipment time $\tau = \frac{\bar{P}}{\bar{m}}$. Because we only have m vehicles but want to minimize intershipment time, It is better for use to let only one vehicle to delivery each subtime. If we send all the car on time 0, we have to suffer inventory cost at whole period 
-           2.  
+           2.  case1: we need to find optimal intershipment time to find minimal cost:
+                   1.  <br>![](./pic/03.png)
+                   2.  solution: $\tau ^*_C = min (\sqrt{\frac{c}{h}},\frac{1}{v})$. When $\tau ^*_C = \frac{1}{v}$, a full load vechicle is sent
+                   3.  drawbacks: $\tau ^*_C$ could become irrational number or too small impractical number 
+           3.  case2: continuous case with minimum intershipment time
+               1.  y is the number of vehicles to use every $\tau$ times.
+               2.  problem: <br>![](./pic/04.png)
+               3.  solution: $\tau^*_M = min \{max\{1, \sqrt{\frac{c}{h}\lceil v\rceil}\}, \frac{\lceil v \rceil}{v}\}$, $y^* = \lceil v\tau^*_M\rceil$
+               4.  property:  $z_M^*$ is the optimal cost under real optimal policy
+                   1.  property1: optimal cost $z_M^{SF}$ under single frequency policy<br>![](./pic/05.png)
+                   2.  property2: optimal cost $z^{SF}$ under best single frequency policy<br>![](./pic/06.png)
+                   3.  property3: optimal cost $z^{DF}$ under best double frequency policy<br>![](./pic/07.png)
+       7.  Discrete case:at discrete times if the minimum intershipment time is normalized to 1.
+           1.  Method:  round-off the optimal solution $\tau^*_C$ of the continuous problem to an integer number. Sup and Inf
+           2. Let $Z^*_D$ be the optimal cost of discrete case; $Z^{Round}$ be the cost of any of heuristics <br>![](./pic/08.png)
+           3. Full-load oplicy: use fully loaded vehicles at discrete times. 
+              1. Although in some cases, $\frac{Z^{Full}}{Z^*_D} \rightarrow \infty$, in some instance, we find $\frac{Z^{Full}}{Z^*_D} \leq 2$ and $\frac{Z^{Full}}{Z^*_D} \leq \frac{3}{2}$. 
+              2. If the full load policy is optimal in the continuous problem, we could always find $\frac{Z^{Full}}{Z^*_D} \leq \frac{3}{2}$ in related discrete condition
+           4. The discrete case with given frequencies
+              1. frequency $f_j$, $j \in J$; intershipment time $t_j = \frac{1}{f_j}$
+              2. The period of this policy is $P = LCM\{t_j, j \in J\}$, LCM is the Least Common Multiplier.
+              3. $x_{ij}$ is the percentage of product $i \in I$ to ship at frequency $j \in J$
+              4. $y_j$ is the number of vehicles to use at frequency $j \in J$
+              5. problem: <br>![](./pic/09.png)
+           5. The discrete case with finite time horizon
+              1. A supplier may be sufficiently flexible to accept that any discrete time is a possible shipping time and be interested in finding the best shipping times over a finite planning period
+              2. Given finite time horizon $H$, a set of possible shipping times is $T = \{0,1,...,H-1\}$
+              3. determin the quantity $s_{it}$ of each product $i \in I$ to ship at each time $t \in T$
+              4. starting inventory level $d_i^A$ and $d_i^B$ to make avaliable at supplier A and customer B
+              5. vehicles $y_t$ at each time $t \in T$ to use
+              6. <br>![](./pic/10.png) 
 2. Decisions over time only: the Inventory Routing Problem with Direct Shipping
    1.  a supplier serves a set of customers with direct shipments to each separately. Again, the routes are fixed.
    2.  some paper to read

@@ -1,5 +1,12 @@
 # IE597Spring2024
 
+## Update 3/3/2024:
+1. This week, I finished the paper reading "Inventory routing problems: an introduction"
+2. Find some program of IRP solver
+   1. many open source IRP solvers in the github are based on the Gurobi, OR tools
+   2. Hexaly Optimizer: a commercial optimizer, not open source
+   3. A competition of IRP: we may find some effective alg from the IRP competition http://dimacs.rutgers.edu/programs/challenge/vrp/papers-videos/
+
 ## Update 2/26/2024:
 1. update presentation pdf
 2. week 6 folder
