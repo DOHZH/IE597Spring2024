@@ -1,5 +1,11 @@
 # IE597Spring2024
 
+## Update 3/18/2024
+1. I have already read the paper refered last meeting: New benchmark instances for the inventory routing problem
+2. Week8-9 folder:
+   1. note.md: reading note
+   2. pic: pictures in note 
+
 ## Update 3/3/2024:
 1. This week, I finished the paper reading "Inventory routing problems: an introduction"
 2. Find some program of IRP solver
