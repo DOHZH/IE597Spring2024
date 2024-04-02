@@ -1,6 +1,6 @@
 # IE597Spring2024
 ## Update 4/1/2024
-1. week 10 folder: read paper
+1. week 10-11 folder: read paper
 
 ## Update 3/18/2024
 1. I have already read the paper refered last meeting: New benchmark instances for the inventory routing problem
