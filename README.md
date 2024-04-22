@@ -1,4 +1,8 @@
 # IE597Spring2024
+
+## Update 4/22/2024
+1. week 14 folder: read paper
+
 ## Update 4/1/2024
 1. week 10-11 folder: read paper
 
