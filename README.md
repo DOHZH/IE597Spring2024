@@ -1,15 +1,14 @@
 # IE597Spring2024
-
 ## Update 4/22/2024
-1. week 14 folder: read paper
+1. week 14 folder: read paper: https://doi.org/10.1016/j.cor.2018.05.023
 
 ## Update 4/15/2024
-1. week 12-13 folder: read paper
+1. week 12-13 folder: read paper:https://doi.org/10.1016/j.tre.2024.103447
 ## Update 4/8/2024
-1. week 12 folder: read paper
+1. week 12 folder: read paper:https://doi.org/10.1016/j.tre.2024.103447
 
 ## Update 4/1/2024
-1. week 10-11 folder: read paper
+1. week 10-11 folder: read paper: https://doi.org/10.1016/j.cor.2023.106353 ; https://doi.org/10.1287/trsc.2016.0729
 
 ## Update 3/18/2024
 1. I have already read the paper refered last meeting: New benchmark instances for the inventory routing problem
