@@ -1,4 +1,7 @@
 # IE597Spring2024
+## Update 4/29/2024
+1. week15 folder: read paper: https://doi.org/10.1016/j.ejor.2023.07.013
+
 ## Update 4/22/2024
 1. week 14 folder: read paper: https://doi.org/10.1016/j.cor.2018.05.023
 

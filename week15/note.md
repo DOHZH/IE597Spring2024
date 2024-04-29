@@ -64,3 +64,11 @@
 7. LB'': the final average lower bounds at the node of the tree(the bound obtained before and after the insertion of cuts.)
 8. Opt: number of instances in the group solved to optimality
 9. Gap: the average optimality gap at termination in percentage
+10. inv. cost: inventory cost type
+11. Table2: B2 is a better choice for solving problem
+12. Table4: 
+    1.  Differences are computed by subtracting the average value obtained for the ML policy from the corresponding average value obtained for the ZIO policy.
+    2.  Differences are also expressed in percentage with respect to the the average value obtained for the ML policy.
+    3.  with ZIO, customer's inventory cost decreased while inventory costs at the supplier and travel costs to increase
+    4.  application of the ZIO policy decreases at the increase of relative weight of the inventory costs at the customers.
+13. Table7: percentage of each part in ML and ZIO
